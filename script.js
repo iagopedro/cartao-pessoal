@@ -26,7 +26,7 @@ function getGithubProfileInfos() {
     .then(data => {
       githubUserName.textContent = data.name
       githubUserBio.textContent = data.bio
-      githubUserProfile.textContent = data.login
+      githubUserLogin.textContent = data.login
       userLink.href = data.html_url
       userImage.src = data.avatar_url
     })
