@@ -30,8 +30,6 @@ function getGithubProfileInfos() {
       userLink.href = data.html_url
       userImage.src = data.avatar_url
     })
-
-  alert(url)
 }
 
 getGithubProfileInfos()
